@@ -2,7 +2,7 @@ pipeline {
   agent {
     node {
       label 'master'
-      customWorkspace 'D:\GIT\${env.Job}\'
+      customWorkspace 'D:\GIT\'
     }
   }
   stages {
